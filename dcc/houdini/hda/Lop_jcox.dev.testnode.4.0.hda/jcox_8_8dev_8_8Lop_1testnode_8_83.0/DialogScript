@@ -1,0 +1,17 @@
+# Dialog script for jcox::dev::testnode::3.0 automatically generated
+
+{
+    name	jcox::dev::testnode::3.0
+    script	jcox::dev::testnode::1.0
+    label	"Test Node"
+
+    help {
+	""
+    }
+
+    inputlabel	1	"Input Stage"
+    inputlabel	2	"Input 2"
+    inputlabel	3	"Input 3"
+    inputlabel	4	"Input 4"
+
+}

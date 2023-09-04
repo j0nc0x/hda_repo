@@ -1,0 +1,42 @@
+Operator:     jcox::dev::testnode::2.0
+Label:        Test Node
+Path:         oplib:/jcox::dev::Lop/testnode::2.0?jcox::dev::Lop/testnode::2.0
+Icon:         LOP_subnet
+Table:        Lop
+License:      
+Extra:        
+User:         
+Inputs:       0 to 0
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Wed Aug 30 07:42:52 2023
+
+Operator:     jcox::dev::testnode::3.0
+Label:        Test Node
+Path:         oplib:/jcox::dev::Lop/testnode::3.0?jcox::dev::Lop/testnode::3.0
+Icon:         LOP_subnet
+Table:        Lop
+License:      
+Extra:        
+User:         
+Inputs:       0 to 0
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Wed Aug 30 08:59:20 2023
+
+Operator:     jcox::dev::testnode::4.0
+Label:        Test Node
+Path:         oplib:/jcox::dev::Lop/testnode::4.0?jcox::dev::Lop/testnode::4.0
+Icon:         LOP_subnet
+Table:        Lop
+License:      
+Extra:        
+User:         
+Inputs:       0 to 0
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Mon Sep  4 21:02:40 2023
+
