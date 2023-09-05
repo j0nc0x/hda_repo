@@ -1,5 +1,5 @@
 Operator:     jcox::dev::testnode::4.1
-Label:        Test Node
+Label:        Test Node1
 Path:         oplib:/jcox::dev::Lop/testnode::4.1?jcox::dev::Lop/testnode::4.1
 Icon:         LOP_subnet
 Table:        Lop
@@ -10,5 +10,5 @@ Inputs:       0 to 0
 Subnet:       true
 Python:       false
 Empty:        false
-Modified:     Mon Sep  4 22:17:03 2023
+Modified:     Tue Sep  5 20:47:32 2023
 
