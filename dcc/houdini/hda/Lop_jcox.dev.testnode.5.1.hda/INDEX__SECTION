@@ -1,0 +1,14 @@
+Operator:     jcox::dev::testnode::5.1
+Label:        Test Node1
+Path:         oplib:/jcox::dev::Lop/testnode::5.1?jcox::dev::Lop/testnode::5.1
+Icon:         LOP_subnet
+Table:        Lop
+License:      
+Extra:        
+User:         
+Inputs:       0 to 0
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Tue Sep  5 22:28:39 2023
+
