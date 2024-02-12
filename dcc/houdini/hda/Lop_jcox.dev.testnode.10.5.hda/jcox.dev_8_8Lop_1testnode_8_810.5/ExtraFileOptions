@@ -1,2 +1,22 @@
 {
+	"NodeDescription/Cursor":{
+		"type":"intarray",
+		"value":[1,41]
+	},
+	"NodeDescription/IsExpr":{
+		"type":"bool",
+		"value":false
+	},
+	"NodeDescription/IsPython":{
+		"type":"bool",
+		"value":false
+	},
+	"NodeDescription/IsScript":{
+		"type":"bool",
+		"value":false
+	},
+	"NodeDescription/Source":{
+		"type":"string",
+		"value":""
+	}
 }
