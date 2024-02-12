@@ -20,6 +20,7 @@
         type    vector2
         size    2
         default { "0" "0" }
+        help    "added some help"
         range   { -1 1 }
         parmtag { "script_callback_language" "python" }
     }
