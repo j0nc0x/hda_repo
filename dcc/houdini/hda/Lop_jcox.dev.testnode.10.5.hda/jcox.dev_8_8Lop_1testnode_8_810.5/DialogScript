@@ -1,7 +1,7 @@
-# Dialog script for jcox::dev::testnode::6.0 automatically generated
+# Dialog script for jcox.dev::testnode::10.5 automatically generated
 
 {
-    name	jcox::dev::testnode::6.0
+    name	jcox.dev::testnode::10.5
     script	jcox::dev::testnode::1.0
     label	"Test Node1"
 
