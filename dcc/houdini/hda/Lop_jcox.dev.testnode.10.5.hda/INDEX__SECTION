@@ -1,7 +1,7 @@
 Operator:     jcox.dev::testnode::10.5
 Label:        Test Node1
 Path:         oplib:/jcox.dev::Lop/testnode::10.5?jcox.dev::Lop/testnode::10.5
-Icon:         opdef:/jcox.dev::Lop/testnode::10.5?IconSVG
+Icon:         LOP_subnet
 Table:        Lop
 License:      
 Extra:        
@@ -10,5 +10,5 @@ Inputs:       0 to 0
 Subnet:       true
 Python:       false
 Empty:        false
-Modified:     Tue Feb 13 21:54:37 2024
+Modified:     Tue Feb 13 22:07:50 2024
 
