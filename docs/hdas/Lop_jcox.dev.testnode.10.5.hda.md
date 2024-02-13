@@ -1,1 +1,1 @@
-<img src="test.svg" width="128"/>
+![Lop_jcox.dev.testnode.10.5.hda Icon](default.svg)
