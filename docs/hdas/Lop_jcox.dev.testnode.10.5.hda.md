@@ -1,3 +1,2 @@
 # Lop_jcox.dev.testnode.10.5.hda
-**Category**: Lop **Namespace**: jcox.dev::testnode::10.5
-![Lop_jcox.dev.testnode.10.5.hda Icon](Lop_jcox.dev.testnode.10.5.hda.svg)
+<img src=Lop_jcox.dev.testnode.10.5.hda.svg width="50" height="50">**Category**: Lop **Namespace**: jcox.dev::testnode::10.5
