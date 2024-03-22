@@ -1,0 +1,74 @@
+#/usr/bin/env python
+
+import hou
+
+
+# Some constants / config data
+base_node_primpath = "/base_node" 
+base_node_path_key = "base_node_path"
+base_node_data_key = "base_node_key"
+
+
+def get_load_count(current_node):
+    """Get the load count.
+
+    Returns:
+        int: The load count.
+    """
+    load_count = current_node.cachedUserData("load_count")
+    if load_count:
+        return load_count
+    return 0
+
+
+def load_data(current_node):
+    """Some data we want to make available elsewhere in the LOP net. This is just
+    dummy data for now, but could be from Ftrack, ShotGrid etc.
+
+    Returns:
+        list: A list of dictionaries containing data.
+    """
+    load_count = get_load_count(current_node) + 1
+    current_node.setCachedUserData("load_count", load_count)
+    print("Loading data from source. (Load count = {}).".format(load_count))
+    return [
+        {
+            "episode": "101",
+            "sequence": "010",
+            "shot": "010",
+            "task": "comp",
+        },
+        {
+            "episode": "101",
+            "sequence": "010",
+            "shot": "020",
+            "task": "comp",
+        },
+        {
+            "episode": "101",
+            "sequence": "010",
+            "shot": "020",
+            "task": "anim",
+        },
+    ]
+
+    
+def get_data(current_node):
+    """
+    Get the base node data.
+
+    Args:
+        current_node (hou.Node): The current node.
+
+    Returns:
+        list: A list of dictionaries containing data.
+    """
+    data = current_node.cachedUserData(base_node_data_key)
+    if not data:
+        initialise(current_node)
+    return data
+ 
+
+def initialise(current_node):
+    current_node.destroyCachedUserData("load_count", must_exist=False)
+    current_node.setCachedUserData(base_node_data_key, load_data(current_node))
